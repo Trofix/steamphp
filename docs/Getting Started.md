@@ -16,6 +16,7 @@ $steamphp = new SteamPHP($key, $steamID); //SteamID is optional.
 ### Input
 
 **newKey** - Your SteamAPI key. - **Required**
+
 **newSteamID** - If you are going to use one SteamID in that instance, set this variable to that SteamID. - *Optional*
 
 ### Output

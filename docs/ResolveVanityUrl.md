@@ -4,6 +4,7 @@ Turns a vanityURL into a Steam64 ID.
 ## Input
 
 **vanityURL** - User's customURL ID. (example: http://steamcommunity.com/id/gabelogannewell = gabelogannewell) - **Required**
+
 **remember** - Remembers result SteamID, like the constructor would.
 
 ## Output
@@ -11,7 +12,9 @@ Turns a vanityURL into a Steam64 ID.
 The content outputs the user's SteamID, except:
 
 Response wasn't JSON - **-1**
+
 User not found - **-2**
+
 Unknown error - **-3**
 
 ## Example
